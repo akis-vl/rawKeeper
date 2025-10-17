@@ -29,21 +29,21 @@ YourPhotoFolder/
 
 1. Place your JPEGs in the root folder and your RAWs inside a subfolder named RAW.
 2. Ensure these files are together:
-   - sync_raws_with_jpegs.py
-   - sync_raws_with_jpegs.bat
+   - rawKeeper.py
+   - rawKeeper.bat
 3. Run options:
 
 Option A — In the photo folder
 - Copy both files into your photo folder.
-- Double-click sync_raws_with_jpegs.bat (it processes the current directory).
+- Double-click rawKeeper.bat (it processes the current directory and it will automatically find your RAW folder).
 
 Option B — Drag & Drop
-- Drag your photo folder onto sync_raws_with_jpegs.bat.
+- Drag your photo folder onto rawKeeper.bat.
 - It will process the dropped folder.
 
 ## ⚙️ Configuration
 
-Inside sync_raws_with_jpegs.py, you can change:
+Inside rawKeeper.py, you can change:
 
 move_unmatched = False  # Set True to move instead of delete
 unmatched_folder_name = "_unmatched"  # Destination folder for moved RAWs
